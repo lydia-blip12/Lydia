@@ -1,0 +1,253 @@
+/* 1. GENERAL PAGE STYLING */
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff5f5;
+    font-family: Georgia, serif;
+    color: #4a2633;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+
+/* 2. HEADER */
+
+header {
+    background-color: #7b1e3a;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    font-size: 35px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 10px;
+}
+
+
+/* 3. NAVIGATION BAR */
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #f3c6d3;
+    color: #7b1e3a;
+    transition: 0.3s;
+}
+
+
+/* 4. WEBSITE SECTIONS */
+
+section {
+    background-color: white;
+    margin: 35px auto;
+    padding: 35px;
+    max-width: 1100px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+/* 5. HEADINGS */
+
+h2 {
+    color: #8b1e4b;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    color: #8b1e4b;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+/* 6. PARAGRAPHS */
+
+p {
+    text-align: center;
+    font-size: 17px;
+    text-align: justify;
+}
+
+
+/* 7. HOME SECTION */
+
+#home {
+    text-align: center;
+}
+
+#home img {
+    width: 290px;
+    max-width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    margin: 25px auto;
+}
+
+
+/* 8. LISTS */
+
+ul {
+    font-size: 17px;
+    padding-left: 35px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+/* 9. IMAGES */
+
+img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+img:hover {
+    transform: scale(1.04);
+    transition: 0.3s ease;
+}
+
+
+/* 10. GALLERY */
+
+#gallery {
+    text-align: center;
+}
+
+#gallery img {
+    width: 200px;
+    height: 260px;
+    object-fit: cover;
+    display: inline-block;
+}
+
+#gallery a {
+    text-decoration: none;
+}
+
+
+/* 11. VIDEOS */
+
+video {
+    width: 250px;
+    max-width: 100%;
+    border-radius: 12px;
+    margin: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* 12. BUSINESS SECTION */
+
+#business {
+    background-color: #fff0f4;
+    border-left: 6px solid #8b1e4b;
+    border-right: 6px solid #8b1e4b;
+}
+
+
+/* 13. CONTACT SECTION */
+
+#contact {
+    text-align: center;
+   
+}
+
+
+/* 14. FOOTER */
+
+footer {
+    background-color: #7b1e3a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/* 15. MOBILE PHONE RESPONSIVENESS */
+
+@media screen and (max-width: 600px) {
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav {
+        gap: 5px;
+    }
+
+    nav a {
+        font-size: 13px;
+        padding: 6px;
+    }
+
+    section {
+        margin: 15px 10px;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    #gallery img {
+        width: 140px;
+        height: 190px;
+    }
+
+    video {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+a {
+    text-decoration: none;
+}
+}
+
+/* 16. REMOVE UNDERLINE FROM LINKS */
+
+a {
+    text-decoration: none;
+}
+
